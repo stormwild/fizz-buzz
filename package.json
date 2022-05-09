@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run build && node ./dist/main.js",
     "build": "webpack --mode 'development'",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch"
   },
   "author": "Alexander R. Torrijos <artorrijos@gmail.com> (https://stormwild.github.io/)",
   "license": "MIT",
